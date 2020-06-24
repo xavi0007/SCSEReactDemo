@@ -5,6 +5,7 @@ import {Switch, Route} from 'react-router-dom';
 import Blog from './Blog';
 import Technology from './Technology';
 import Demo from './Demo'
+
 class App extends React.Component {
   render(){
     return (
