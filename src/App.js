@@ -5,6 +5,7 @@ import {Switch, Route} from 'react-router-dom';
 import Blog from './Blog';
 import Technology from './Technology';
 import Demo from './Demo'
+import Design from './Design';
 
 class App extends React.Component {
   render(){
@@ -13,6 +14,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path ="/" component={Blog}/>
           <Route exact path ="/tech" component={Technology}/>
+          <Route exact path ="/design" component={Design}/>
           <Route exact path ="/demo" component={Demo}/>
         </Switch>
       </React.Fragment>

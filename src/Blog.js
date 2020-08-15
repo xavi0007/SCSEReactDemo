@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 const sections = [
   { title: 'Technology', url: '/tech' },
-  { title: 'Design', url: '#' },
+  { title: 'Design', url: '/design' },
   { title: 'Culture', url: '#' },
   { title: 'Business', url: '#' },
   { title: 'Politics', url: '#' },
